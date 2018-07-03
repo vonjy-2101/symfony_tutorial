@@ -1,0 +1,11 @@
+Voiture\ListeBundle\Entity\Liste:
+    type: entity
+    table: null
+    repositoryClass: Voiture\ListeBundle\Repository\ListeRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    lifecycleCallbacks: {  }

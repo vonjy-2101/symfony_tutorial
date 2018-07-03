@@ -1,0 +1,15 @@
+voiture_liste_homepage:
+    path:     /
+    defaults: { _controller: VoitureListeBundle:Default:index }
+voiture_edit:
+    path:     /edit
+    defaults: { _controller: VoitureListeBundle:Default:edit }
+voiture_save:
+    path:     /save
+    defaults: { _controller: VoitureListeBundle:Default:save }
+voiture_update:
+    path:     /update
+    defaults: { _controller: VoitureListeBundle:Default:update }
+voiture_delete:
+    path:     /delete
+    defaults: { _controller: VoitureListeBundle:Default:delete }

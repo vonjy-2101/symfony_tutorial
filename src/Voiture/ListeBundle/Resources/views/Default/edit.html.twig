@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+	<div class="col-md-4">
+		<form method="post" action="{{path('voiture_update')}}">
+				<input type="hidden" name="id" class="form-control" value="{{ user.id }}">
+			<div id="form-group">
+				<label>Nom : </label>
+				<input type="text" name="nom" class="form-control" value="{{ user.nom }}">
+			</div>
+			<div id="form-group">
+				<label>Prénom : </label>
+				<input type="text" name="mp" class="form-control" value="{{ user.password }}">
+			</div>
+			<br>
+			<button type="submit" class="btn btn-success">enregistrer</button>
+		</form>  
+	</div>
+	  
+{% endblock %}
+

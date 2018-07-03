@@ -1,0 +1,11 @@
+Voiture\ListeBundle\Entity\Pilote:
+    type: entity
+    table: null
+    repositoryClass: Voiture\ListeBundle\Repository\PiloteRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    lifecycleCallbacks: {  }
